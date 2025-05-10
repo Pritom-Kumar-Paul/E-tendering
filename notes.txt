@@ -1,0 +1,46 @@
+tbl_user
+		1	u_id							
+		2	u_first_name				fname		1
+		3	u_last_name					lname		2
+		4	u_email						email		3
+		5	u_phone						phone		4
+		6	u_password					password	10
+		7	u_occupation				occupation	5
+		8	u_role						
+		9	u_blood_group				bloodgroup	6
+		10	u_image						image		9
+		11	u_present_area				area		8
+		12	u_know_swimming				swimming	7
+		
+
+
+tbl_task
+		1	t_id
+		2	t_type
+		3	t_number_of_people
+		4	t_address
+		5.	t_details
+		6.	t_contact_person
+		7.	t_contact_person_phone_number
+		8.	t_task_assigned_person
+		9.	t_task_status
+		10.	t_assigned_person
+
+
+type
+i.		Rescue operation
+ii.		Medical support
+iii.	Food & water
+		
+task status
+		Pending
+		Assigned
+		Acomplished
+
+
+phonenumber
+address
+occupation
+status
+
+
